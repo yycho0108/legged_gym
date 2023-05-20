@@ -9,7 +9,9 @@ setup(
     packages=find_packages(),
     author_email='rudinn@ethz.ch',
     description='Isaac Gym environments for Legged Robots',
-    install_requires=['isaacgym',
-                      'rsl-rl',
-                      'matplotlib']
+    install_requires=[
+        # 'isaacgym',
+        #               'rsl-rl',
+        #               'matplotlib'
+    ]
 )
